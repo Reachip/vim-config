@@ -8,11 +8,9 @@ set autoindent
 set ruler 
 
 call plug#begin('~/.vim/plugged')
-
 Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-surround'
 Plug 'maralla/completor.vim'
-
+Plug 'townk/vim-autoclose'
 call plug#end()
 
 colorscheme papaya 
