@@ -9,11 +9,12 @@ set ruler
 set termguicolors 
 
 call plug#begin('~/.vim/plugged')
+Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'maralla/completor.vim'
 Plug 'townk/vim-autoclose'
 Plug 'morhetz/gruvbox'
+Plug 'whatyouhide/vim-gotham'
 call plug#end()
 set background=dark
-let ayucolor="dark" 
-colorscheme gruvbox
+colorscheme gotham
